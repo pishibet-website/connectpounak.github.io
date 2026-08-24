@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رصد تِک | پادکست تکنولوژی</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00ff88;
+      box-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #00ff88;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #aaa;
+      font-weight: 300;
+    }
+
+    .intro {
+      background: #141414;
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .intro p {
+      font-size: 1.05rem;
+      color: #ccc;
+    }
+
+    .episode {
+      background: #141414;
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 30px;
+    }
+
+    .episode h2 {
+      font-size: 1.3rem;
+      color: #00ff88;
+      margin-bottom: 12px;
+    }
+
+    .episode p {
+      color: #bbb;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    .links {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #00ff88;
+      color: #000;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #00cc6a;
+      transform: translateY(-2px);
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 2px solid #00ff88;
+      color: #00ff88;
+    }
+
+    .btn.secondary:hover {
+      background: #00ff88;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #555;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- لوگو رو بعداً جایگزین کن -->
+      <div style="width:140px;height:140px;border-radius:50%;background:#111;border:3px solid #00ff88;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;font-size:40px;">🎙️</div>
+      <h1>رصد تِک</h1>
+      <p class="subtitle">پادکست اخبار و تحلیل تکنولوژی با اجرای سامان</p>
+    </header>
+
+    <section class="intro">
+      <p>
+        اینجا هر هفته مهم‌ترین اتفاقات دنیای تکنولوژی رو با هم بررسی می‌کنیم.
+        از نیمه‌هادی و هوش مصنوعی تا خودروهای خودران و امنیت دیجیتال.
+      </p>
+    </section>
+
+    <section class="episode">
+      <h2>اپیزود ۱: هند، کوووس و گلوگاه‌های چیپ</h2>
+      <p>
+        در اولین اپیزود سراغ برنامه نیمه‌هادی هند و چالش بزرگ بسته‌بندی پیشرفته چیپ‌ها (CoWoS) رفتیم.
+      </p>
+      <!-- فایل صوتی رو اینجا قرار بده -->
+      <audio controls>
+        <source src="rasadtek_episode1_cleaned.mp3" type="audio/mpeg">
+        مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+      </audio>
+    </section>
+
+    <div class="links">
+      <a href="#" class="btn">تلگرام</a>
+      <a href="#" class="btn secondary">کست‌باکس</a>
+    </div>
+
+    <footer>
+      © ۱۴۰۵ رصد تِک — همه حقوق محفوظ است
+    </footer>
+  </div>
+</body>
+</html>
